@@ -11,7 +11,7 @@ parameters:
     ai_provider: '%env(default:ai_provider_default:AI_PROVIDER)%'
     openai_model_default: 'gpt-4o-mini'
     openai_model: '%env(default:openai_model_default:OPENAI_MODEL)%'
-    anthropic_model_default: 'claude-3-5-sonnet-latest'
+    anthropic_model_default: ''
     anthropic_model: '%env(default:anthropic_model_default:ANTHROPIC_MODEL)%'
     stripe_publishable_key: '%env(default::STRIPE_PUBLISHABLE_KEY)%'
     gemini_model_default: 'gemini-2.5-flash'
